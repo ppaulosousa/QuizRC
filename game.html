@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/game.css" type="text/css">
+
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="div-container">
+        <div id="id-game" class="justify-center flex-column">
+            <div id="div-quizz">
+                <div class="div-quizz-item">
+                    <p id="progress-text" class="div-quizz-prefix">
+                        Questões
+                    </p>
+                    <div id="div-progress-bar">
+                        <div id="div-progress-bar-full"></div>
+                    </div>
+                </div>
+                <div class="div-quizz-item">
+                    <p class="div-quizz-prefix">
+                        Score
+                    </p>
+                    <h1 class="div-quizz-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="question">Qual a resposta correcta?</h1>
+            <div class="div-choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number = "1">CHOICE 1</p>
+            </div>
+            <div class="div-choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number = "2">CHOICE 2</p>
+            </div>
+            <div class="div-choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number = "3">CHOICE 3</p>
+            </div>
+            <div class="div-choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number = "4">CHOICE 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/game.js"></script>
+</body>
+</html>
