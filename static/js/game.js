@@ -12,12 +12,12 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: '_______ ela ainda não chegou?',
-        choice1: 'Porque',
-        choice2: 'Por quê',
-        choice3: 'Porquê',
-        choice4: 'Por que',
-        answer: 4
+        question: 'TENDO FECHADO todas as portas, foram sossegadamente para casa. ',
+        choice1: 'Infinitivo Pessoal Composto',
+        choice2: 'Gerúndio Composto',
+        choice3: 'Condicional Composto',
+        choice4: 'Gerúndio Simples',
+        answer: 2
     },
     {
         question: 'Ele sempre ______ chocolate para os amigos.',
@@ -36,20 +36,20 @@ let questions = [
         answer: 4
     },
     {
-        question: 'Em qual desses povos a cultura portuguesa tem origem?',
-        choice1: 'Brasileira',
-        choice2: 'Americana',
-        choice3: 'Fenícia',
-        choice4: 'Persa',
-        answer: 3
+        question: 'Quem desenhou a politica de expansão portuguesa no Oriente?',
+        choice1: 'Afonso de Albuquerque',
+        choice2: 'Infante D. Henrique',
+        choice3: 'D. Afonso Henriques ',
+        choice4: 'D. Sancho II',
+        answer: 1
     },
     {
-        question: 'Qual língua mais influenciou na criação da língua portuguesa?',
-        choice1: 'Mirandês',
-        choice2: 'Latim',
-        choice3: 'Espanhol',
-        choice4: 'Gaulês',
-        answer: 2
+        question: 'Qual das expressões seguintes é equivalente a (x-2)² + 6x ?',
+        choice1: 'x² + 2x + 4',
+        choice2: 'x² + 6x + 4',
+        choice3: 'x² + 10x - 4',
+        choice4: 'x² + 6x - 4',
+        answer: 1
     },
     {
         question: 'Qual língua mais influenciou na criação da língua portuguesa?',
@@ -84,7 +84,7 @@ let questions = [
         answer: 3
     },
     {
-        question: 'Nos verbos, o modo subjuntivo expressa ',
+        question: 'Nos verbos, o modo conjuntivo expressa ',
         choice1: 'Dúvida, incerteza',
         choice2: 'Ordem',
         choice3: 'Certeza',
